@@ -1,0 +1,98 @@
+body{
+  font-family: serif, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:cornflowerblue;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: larger;
+  color: #000;
+}
+
+.angela{
+  font-size: 24px;
+  margin: 6rem;
+}
+
+.angela h1{
+  font-weight: 900;
+}
+
+.angela span{
+  text-decoration: underline;
+}
+
+.parent{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr;
+  text-align: left;
+  width: 40%;
+  margin: 100px auto;
+  row-gap: 2rem;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.hr1{
+  border: none;
+  padding-inline: 100px;
+}
+
+.pros{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.pros img{
+  height: 200px;
+  width: 400px;
+}
+
+.footer{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #D4F6FF, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
